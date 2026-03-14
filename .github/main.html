@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="Stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="nav">
+        <div id="nav1">
+            <h6>Resume Builder</h6>
+        </div>    
+        <div id="nav2">
+        <h6>Templates   &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; My Account     </h6>
+        
+
+        </div>
+    </div>
+
+<div id="body">
+               <div id="b1">
+                           <h1>BUILD YOUR RESUME</h1>
+               </div>
+
+               <div id="b2">
+                            <p>Fill out the form and see your resume update in real time.</p>
+               </div>
+
+
+</div>
+
+<div id="form1">
+<form>
+
+<label>Name</label>
+<input id="name" type="text" placeholder="Enter your name">
+
+<label>Email</label>
+<input id="email" type="email" placeholder="Enter your email">
+
+<label>Phone</label>
+<input id="phone" type="text" placeholder="Enter your phone" >
+
+<label>Summary</label>
+<textarea id="summary" placeholder="Write your summary"></textarea>
+
+<label>Experience</label>
+<textarea id="experience" placeholder="Write your experience"></textarea>
+
+
+<label>EDUCATION</label>
+<textarea id="education" placeholder="Write about your education" ></textarea>
+
+
+<button type="button" class="generate-btn" onclick="updateResume()">GENERATE RESUME</button>
+
+</form>
+</div>
+
+
+
+
+              </div>
+
+ <div id="resume">
+
+<h3 id="preview-name">YOUR NAME</h1>
+<p id="preview-contact">youremail@example.com · (+91) 12345-67890</p>
+
+<h3 >SUMMARY</h1>
+<p  id="preview-summary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, commodi sapiente! Dignissimos necessitatibus eum voluptate provident magni officia deleniti, neque tempore numquam veritatis vero corporis nulla delectus, nemo pariatur reiciendis.</p>
+<h3>EXPERIENCE</h1>
+<p >
+    <ul id="preview-experience">
+        <li>worked at company A</li>
+        <li>worked at company B</li>
+    </ul>
+        
+</p>
+<h3>EDUCATION</h1>
+<p >
+    <ul id="preview-education">
+        <li>marks in high school</li>
+        <li>degree</li>
+    </ul>
+
+</p>
+
+
+ </div>   
+
+
+<script src="script.js"></script>
+</body>
+</html>
